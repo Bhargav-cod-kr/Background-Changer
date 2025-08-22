@@ -14,7 +14,7 @@ function Background() {
 
       <h1 className='bg-black py-3'>Background Changer</h1>
 
-        <div className='flex flex-wrap gap-2.5 items-center py-10'>
+        <div className='flex flex-wrap justify-center gap-2'>
             <Button text='red' color="bg-red-500 hover:bg-red-600 active:bg-red-700 hover:scale-105 active:scale-95"
             // onClick={() => handleBgColor("bg-red-500")}
             onClick={() => setBgColor("bg-red-500")}
